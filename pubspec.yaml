@@ -1,0 +1,27 @@
+name: sticky_memo
+description: 4色メモ・ドラッグでゴミ箱削除・展開表示のメモ帳
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  uuid: ^4.4.0
+  google_mobile_ads: ^5.0.0   # だいたい最新。バージョンは調整OK
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/new_buttons/
+    - assets/backgrounds/
+
